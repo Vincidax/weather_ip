@@ -1,0 +1,24 @@
+{
+  "name": "weather_ip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Vincidax/weather_ip.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vincidax/weather_ip/issues"
+  },
+  "homepage": "https://github.com/Vincidax/weather_ip#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2"
+  }
+}
