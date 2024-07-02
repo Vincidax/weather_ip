@@ -23,7 +23,7 @@ app.get('/api/hello', async (req, res) => {
         }
 
         // Get weather information for the location (using a weather API service)
-        const apiKey = process.env.WEATHER_API_KEY;
+        const apiKey = 'b1856497cef9423dda8a38d321ef1686';
         const weatherResponse = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apiKey}`);
         const temperature = weatherResponse.data.main.temp;
 
